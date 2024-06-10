@@ -1,5 +1,8 @@
 import unittest
 import demographic_data_analyzer
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+
 
 class DemographicAnalyzerTestCase(unittest.TestCase):
     @classmethod
